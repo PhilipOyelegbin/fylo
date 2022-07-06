@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+}
+
+@layer base {
+  li {
+    @apply ml-3 md:ml-5 md:text-2xl;
+  }
+}
