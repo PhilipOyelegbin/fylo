@@ -20,16 +20,16 @@ const Footer = () => {
             </div>
 
             <ul className='md:w-1/6 my-5 md:my-0'>
-                <li className='mb-3 ml-0 md:text-lg hover:text-[#414D92]'><a href="">About Us</a></li>
-                <li className='mb-3 ml-0 md:text-lg hover:text-[#414D92]'><a href="">Jobs</a></li>
-                <li className='mb-3 ml-0 md:text-lg hover:text-[#414D92]'><a href="">Press</a></li>
-                <li className='mb-3 ml-0 md:text-lg hover:text-[#414D92]'><a href="">Blog</a></li>
+                <li className='mb-3 ml-0 md:text-lg hover:text-[#414D92]'><a href="#">About Us</a></li>
+                <li className='mb-3 ml-0 md:text-lg hover:text-[#414D92]'><a href="#">Jobs</a></li>
+                <li className='mb-3 ml-0 md:text-lg hover:text-[#414D92]'><a href="#">Press</a></li>
+                <li className='mb-3 ml-0 md:text-lg hover:text-[#414D92]'><a href="#">Blog</a></li>
             </ul>
 
             <ul className='md:w-1/6 my-5 md:my-0'>
-                <li className='mb-3 ml-0 md:text-lg hover:text-slate-400'><a href="">Contact Us</a></li>
-                <li className='mb-3 ml-0 md:text-lg hover:text-slate-400'><a href="">Terms</a></li>
-                <li className='mb-3 ml-0 md:text-lg hover:text-slate-400'><a href="">Privacy</a></li>
+                <li className='mb-3 ml-0 md:text-lg hover:text-[#414D92]'><a href="#">Contact Us</a></li>
+                <li className='mb-3 ml-0 md:text-lg hover:text-[#414D92]'><a href="#">Terms</a></li>
+                <li className='mb-3 ml-0 md:text-lg hover:text-[#414D92]'><a href="#">Privacy</a></li>
             </ul>
 
             <div className="w-fit md:w-1/6 flex my-5 md:my-0 mx-auto md:mx-0">
