@@ -1,11 +1,11 @@
 import React from 'react'
-import logo from '../images/logo.svg'
+import logo from '../images/footerlogo.svg'
 import phone from '../images/icon-phone.svg'
 import mail from '../images/icon-email.svg'
 
 const Footer = () => {
   return (
-    <footer className='bg-blue-900 text-white p-5 md:px-10'>
+    <footer className='bg-[#07043B] text-white p-5 md:px-10'>
         <img className='my-3 w-52 md:w-36' src={logo} alt="logo" />
         <div className='flex flex-col md:flex-row md:justify-between'>
             <div className='md:w-1/3 my-5 md:my-0'>
@@ -20,10 +20,10 @@ const Footer = () => {
             </div>
 
             <ul className='md:w-1/6 my-5 md:my-0'>
-                <li className='mb-3 ml-0 md:text-lg hover:text-slate-400'><a href="">About Us</a></li>
-                <li className='mb-3 ml-0 md:text-lg hover:text-slate-400'><a href="">Jobs</a></li>
-                <li className='mb-3 ml-0 md:text-lg hover:text-slate-400'><a href="">Press</a></li>
-                <li className='mb-3 ml-0 md:text-lg hover:text-slate-400'><a href="">Blog</a></li>
+                <li className='mb-3 ml-0 md:text-lg hover:text-[#414D92]'><a href="">About Us</a></li>
+                <li className='mb-3 ml-0 md:text-lg hover:text-[#414D92]'><a href="">Jobs</a></li>
+                <li className='mb-3 ml-0 md:text-lg hover:text-[#414D92]'><a href="">Press</a></li>
+                <li className='mb-3 ml-0 md:text-lg hover:text-[#414D92]'><a href="">Blog</a></li>
             </ul>
 
             <ul className='md:w-1/6 my-5 md:my-0'>
@@ -39,7 +39,7 @@ const Footer = () => {
                     width="24"
                     height="24"
                     fill="currentColor"
-                    className="bi bi-facebook rounded-full hover:text-blue-300"
+                    className="bi bi-facebook rounded-full hover:text-[#719DFF]"
                     viewBox="0 0 16 16"
                     >
                     <path
@@ -53,7 +53,7 @@ const Footer = () => {
                     width="24"
                     height="24"
                     fill="currentColor"
-                    className="bi bi-twitter rounded-full hover:text-blue-300 mx-3"
+                    className="bi bi-twitter rounded-full hover:text-[#719DFF] mx-3"
                     viewBox="0 0 16 16"
                     >
                         <path
@@ -67,7 +67,7 @@ const Footer = () => {
                     width="24"
                     height="24"
                     fill="currentColor"
-                    className="bi bi-linkedin rounded-full hover:text-blue-300"
+                    className="bi bi-linkedin rounded-full hover:text-[#719DFF]"
                     viewBox="0 0 16 16"
                     >
                         <path

@@ -6,16 +6,16 @@ import avatar from '../images/avatar-testimonial.jpg'
 
 const Team = () => {
   return (
-    <section className='flex flex-col justify-center md:flex-row md:justify-between items-center p-5 md:px-10 bg-slate-50'>
+    <section className='flex flex-col justify-center md:flex-row md:justify-between items-center p-5 md:px-10 bg-[#F9F8FE]'>
         <img className='md:hidden' src={illustration_2} alt="image" />
 
         <div className='md:w-1/2'>
-            <h2 className='text-lg text-center md:text-2xl md:text-left font-bold my-5'>Stay productive, wherever you are</h2>
+            <h2 className='text-lg text-center text-[#000035] md:text-2xl md:text-left font-bold my-5'>Stay productive, wherever you are</h2>
 
             <p className='my-5 md:text-xs md:w-4/5'>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
             <p className='my-5 md:text-xs md:w-4/5'>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
 
-            <a className='flex items-center text-sm text-green-600 border-b-[1px] border-green-600 pb-1 w-fit mx-auto md:mx-0' href="#">
+            <a className='flex items-center text-sm text-[#389E88] hover:text-[#81D5C5] border-b-[1px] border-[#389E88] hover:border-[#81D5C5] pb-1 w-fit mx-auto md:mx-0' href="#">
                 See how Fylo works 
                 <img className='ml-2' src={arrow} alt="icon" />
             </a>
