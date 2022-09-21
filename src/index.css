@@ -4,14 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
-  padding: 0;
-  line-height: 1.5;
-  font-family: 'Outfit', sans-serif;
-}
-
 @layer base {
+  *, ::before, ::after {
+    @apply m-0 p-0 tracking-widest box-border;
+    font-family: 'Outfit', sans-serif;
+  }
+  
   li {
     @apply ml-3 md:ml-5 md:text-2xl;
   }

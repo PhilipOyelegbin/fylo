@@ -1,4 +1,3 @@
-import React from 'react'
 import Nav from './components/Nav.jsx'
 import Hero from './components/Hero.jsx'
 import curve_1 from './images/bg-curve-mobile.svg'
@@ -14,7 +13,7 @@ const App = () => {
       <Nav/>
       <Pagecontainer>
         <Hero/>
-        <img className='md:hidden' src={curve_1} alt="curve" />
+        <img className='md:hidden mt-10' src={curve_1} alt="curve" />
         <img className='hidden md:block' src={curve_2} alt="curve" />
         <Team/>
         <Subscribe/>

@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const Form = ({classname, placeholder, btnText, direction, input, button}) => {
   return (
     <form className={classname} style={{flexDirection: direction || "row"}} action="#">
